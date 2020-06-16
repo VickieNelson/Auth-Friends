@@ -10,3 +10,9 @@
 
 import React from "react";
 import { axiosWithAuth } from "../utils/axiosWithAuth";
+
+function Login() {
+  return null;
+}
+
+export default Login;

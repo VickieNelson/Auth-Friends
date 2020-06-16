@@ -2,3 +2,9 @@
 
 import React from "react";
 import { axiosWithAuth } from "../utils/axiosWithAuth";
+
+function FriendsList() {
+  return null;
+}
+
+export default FriendsList;

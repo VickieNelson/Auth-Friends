@@ -19,3 +19,9 @@
 */
 import React from "react";
 import { axiosWithAuth } from "../utils/axiosWithAuth";
+
+function AddFriend() {
+  return null;
+}
+
+export default AddFriend;
