@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Login from "./components/Login";
 import FriendsList from "./components/FriendsList";
 import PrivateRoute from "./components/PrivateRoute";
-import AddFriend from "./components/AddFriend";
+import AddFriendForm from "./components/AddFriendForm";
 import DeleteFriend from "./components/DeleteFriend";
 
 class App extends React.Component {
@@ -38,7 +38,7 @@ class App extends React.Component {
           <Switch>
             <Route path='/login' component={Login} />
             <PrivateRoute exact path='/friends-list' component={FriendsList} />
-            <PrivateRoute exact path='/add-friend' component={AddFriend} />
+            <PrivateRoute exact path='/add-friend' component={AddFriendForm} />
             <PrivateRoute
               exact
               path='/delete-friend'
